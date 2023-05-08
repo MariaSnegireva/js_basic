@@ -28,7 +28,6 @@ function formatKey(key, k) {
       }
     }
   }
-
   return result;
 }
 
