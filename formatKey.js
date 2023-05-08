@@ -18,10 +18,10 @@ function formatKey(key, k) {
     if (firstGroupLength === 0) {
       firstGroupLength = k;
     }
-    result += formattedKey.slice(0, firstGroupLength) + '-';
+    result += formattedKey.substr(0, firstGroupLength) + '-';
 
     for (let i = firstGroupLength; i < formattedKey.length; i += k) {
-      result += formattedKey.slice(i, k);
+      result += formattedKey.substr(i, k);
 
       if (i + k < formattedKey.length) {
         result += '-';
