@@ -23,3 +23,5 @@ function reverseWords(str) {
 
   return result.trim();
 }
+reverseWords('This is Mate Academy!');
+//'sihT si etaM !ymedacA';
